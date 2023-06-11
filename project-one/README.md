@@ -7,3 +7,8 @@
 
 ## The approach
 we can route if we want by creating files/folders within the app folder, keep in mind that we no longer use index.js to point to the root, but page.js
+
+### provider is an entry point to the blockchain, you can use JsonRpcProvider or metamask to connect to the blockchain
+- const INFURA_ID=process.env.NEXT_PUBLIC_INFURA_ID;
+
+- const provider = new ethers.providers.JsonRpcProvider(`https://sepolia.infura.io/v3/${INFURA_ID}`);
