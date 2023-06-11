@@ -3,12 +3,6 @@
 import React,{useState,useEffect} from "react";
 import {ethers} from 'ethers';
 
-import Web3Modal from 'web3modal';
-import Image from "next/image";
-
-import ImagePlaceHolder from '../../public/ape.png'
-import ImageLogo from '../../public/logo.png'
-
 export default function Home() {
 
   const INFURA_ID=process.env.NEXT_PUBLIC_INFURA_ID;
@@ -25,27 +19,8 @@ export default function Home() {
 
   return (<>
 
- //TODO: Create a provider that connects to metamask
-
- //TODO: Detect if the metamask account is connected if not, connect it to the Dapp
-
- //TODO: Detect if there is a change in account connected to dapp via metamask
-
- //TODO: Change accounts if there is a change in metamask primary account
-
- //TODO: different UI if connected?connected:notConnected
-
- //TODO: Connect with button
-
- //TODO: See if you can disconnect via website
-
- //TODO: Display current Account address
-
- //TODO: Display current Account Balance
-
- //TODO: Display current Account ENS name if present
-
- //TODO: Display current Account Image if present
+ //TODO: transfer funds with message
+ //*URL: https://www.youtube.com/watch?v=NdJLDId0n-0&list=PLWUCKsxdKl0pHb0Ce9pA_iUg-UstwGPp2&index=25
   
   </>)
 }
